@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Darumadrop+One&family=Kanit:wght@200&family=Kiwi+Maru&family=Lilita+One&family=Niramit:wght@200&family=Sigmar&family=Sofia&family=Sono:wght@300;400&family=Space+Mono:wght@700&family=Tsukimi+Rounded:wght@500&family=VT323&family=Wix+Madefor+Text&display=swap');
+
+body {
+    font-family: 'Tsukimi Rounded', sans-serif;
+    color:rgb(255, 255, 255);
+    background-color: #89d8d3;
+    background-image: linear-gradient(315deg, #89d8d3 0%, #03c8a8 74%);
+    
+}
+
+.grid {
+    width: 606px;    
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: solid rgb(16, 109, 89) 1px;
+    background-color: aliceblue;
+}
+
+.cat {
+    background-image: url('kitty.jpg');
+    background-size: cover;
+
+}
